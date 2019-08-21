@@ -1,2 +1,19 @@
 /**/
-
+.titulo{
+  text-align: center;
+  color: #515257;
+  margin-top: 6vh;
+  
+}
+.texto{
+  margin-top: 5vh;
+  text-align: center;
+}
+.imagen{
+ margin-left: 17vw;
+}
+.subtexto{
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
