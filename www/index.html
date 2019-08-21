@@ -6,10 +6,13 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+  <script src="components/leitor.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
   <script>
@@ -45,7 +48,7 @@
             Home
           </ons-list-item>
           <ons-list-item onclick="fn.load('settings.html')" tappable>
-            Settings
+            Configurações
           </ons-list-item>
           <ons-list-item onclick="fn.load('about.html')" tappable>
             Sobre
@@ -65,15 +68,16 @@
           </ons-toolbar-button>
         </div>
         <div class="center">
-          Main
+          Menu
         </div>
       </ons-toolbar>
       <p style="text-align: center; opacity: 0.6; padding-top: 20px;">
-        Swipe right to open the menu!
+        Delize para a direita para abrir o menu!
+        <br><br>
+        <button class="btn btn-success" id="leitorCodigo">Leitor de codigo de barras e QR Code</button>
       </p>
     </ons-page>
   </ons-template>
-
   <ons-template id="settings.html">
   <ons-page>
     <ons-toolbar>
@@ -83,7 +87,7 @@
         </ons-toolbar-button>
       </div>
       <div class="center">
-        Settings
+        Configurações
       </div>
     </ons-toolbar>
   </ons-page>
