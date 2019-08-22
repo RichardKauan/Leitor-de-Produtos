@@ -1,12 +1,13 @@
 /**/
-.titulo{
+.titulo h2{
   text-align: center;
+  margin-left: 10vh;
   color: #515257;
   margin-top: 6vh;
   
 }
 .texto{
-  margin-top: 5vh;
+  margin-top: 4vh;
   text-align: center;
 }
 .imagen{
@@ -15,5 +16,8 @@
 .subtexto{
   text-align: left;
   margin-top: 5vh;
-  margin-left: 2vw;
+  margin-left: 10vw;
+}
+J8 img{
+  
 }
